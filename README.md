@@ -18,7 +18,7 @@ Create a WordPress Site
 
 ``` ./wordpress_script.sh create <site_name> ```
 
-This command creates a new WordPress site with the given site name. It starts the necessary Docker containers and sets up the site. The site will be accessible at http://<site_name>. A corresponding entry will be added to the /etc/hosts file.
+This command creates a new WordPress site with the given site name. It starts the necessary Docker containers and sets up the site. The site will be accessible at http://<site_name> or http://127.0.0.1 . A corresponding entry will be added to the /etc/hosts file.
 
 ----------------------------------------------------------------------------------------------------------------------
 Enable or Disable a WordPress Site
